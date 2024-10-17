@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topo {
+    display: flex;
+    padding: 35px 0px;
+    position: relative;
+    background-color: #2f86d6;
+}
+
+.topo p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.topo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.topo-logo {
+    position: relative;
+    left: 100px;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-nomes {
+    position: relative;
+    left: 100px;
+}
+
+.topo-links {
+    position: absolute;
+    right: 95px;
+    top: 65px;
+}
+
+.topo-links a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.container-tabela {
+    padding: 100px 0px;
+}
+
+.celula-cabeçalho p {
+    font-size: 14px;
+    color: gray;
+}
+
+.celula-cabeçalho h2 {
+    font-size: 32px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+    color: black;
+    font-weight: bold;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+.rodape {
+    padding: 100px 0px;
+    text-align: center;
+    position: relative;
+    background-color: #2f86d6;
+}
+
+.rodape img {
+    width: 80px;
+}
+
+.copyright {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0px;
+    bottom: 0px;
+}
+
+.copyright p {
+    font-weight: bold;
+}
+
+.copyright span {
+    color: #2f86d6;
+}
+
+.celula-escondida {
+    visibility: hidden;
+}
